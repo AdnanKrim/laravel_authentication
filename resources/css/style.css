@@ -1,0 +1,83 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    
+}
+
+
+.flex{
+    display:flex;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.items-center{
+    align-items:center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.container{
+    padding: 0 5rem;
+    margin: 0 auto;
+    background-image:url(../image/ab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.formbar{
+    color:black;
+    margin:8rem 0;;
+    padding: 5rem;
+    background-color:white;
+    border-radius: 2rem;
+    font-size:1.5rem;
+    width:20vw;
+    
+   
+}
+.bar {
+    margin:0 1rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    margin-left:4.5rem;
+}
+.bar h1{
+    font-family: "Raleway-regular";
+}
+
+section .formz h3{
+margin-left: -2rem;
+
+
+}
+section .formz input{
+    margin: 1rem ;
+    margin-left: -2rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-width: 3px;
+    font-size: 1rem;
+}
+section .formz button{
+width: 5rem;
+height:3rem;
+margin-left: 7rem;
+background-color: darkcyan;
+border-radius: 10px;
+font-size: 1.5rem;
+cursor: pointer;
+
+}
+section .formz button:hover{
+    background-color: white;
+}
+section .formz a{
+    margin: 4rem;
+    margin-top:2rem;
+}
+section .formz a:hover{
+    color: red;
+}
